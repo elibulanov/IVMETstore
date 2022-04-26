@@ -51,7 +51,7 @@ a {
 
 
 .bg-header {
-  background: linear-gradient(0deg, rgba(10, 10, 10, 0.014), rgba(0, 0, 0, 0.034)), url("/summer2.jpg");
+  background: linear-gradient(0deg, rgba(10, 10, 10, 0.014), rgba(0, 0, 0, 0.034)), url("/set.png");
   background-attachment: fixed;
   height: 100vh;
   
