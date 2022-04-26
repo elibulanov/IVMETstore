@@ -49,18 +49,6 @@ a {
   min-height: 60%;
 }
 
-.inner-carousel {
-  display: flex;
-}
-
-.carousel {
-  cursor: grab;
-  overflow: hidden;
-}
-
-.control-dots li{
-  background-color: blueviolet;
-}
 
 .bg-header {
   background: linear-gradient(0deg, rgba(10, 10, 10, 0.014), rgba(0, 0, 0, 0.034)), url("/summer2.jpg");
@@ -79,15 +67,6 @@ a {
 	padding-left: 8.5rem;
 }
 
-.carousel .carousel-status {
-
-	display: none;
-}
-
-.li.dot {
-  background-color: cyan;
- }
- 
 
 .vectorIcon {
   font-size: 10rem;
@@ -97,3 +76,34 @@ a {
    font-size: 2rem;
  }
 
+
+
+  .control-dots .dot:nth-child(1) {
+    background: rgb(0, 0, 0) !important;
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .control-dots .dot:nth-child(2) {
+    background: #5a3c39 !important;
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .control-dots .dot:nth-child(3) {
+    background: #943331 !important;
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .control-dots .dot:nth-child(4) {
+    background: #9c9da5 !important;
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .control-dots .dot:nth-child(5) {
+    background: #00757b !important;
+    width: 20px !important;
+    height: 20px !important;
+  }

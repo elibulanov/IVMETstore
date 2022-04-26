@@ -8,6 +8,8 @@ import images from '../components/imageSlide'
 import bottle from '../images/bottles/turquoise.png'
 
 
+  
+
 import Link from 'next/link';
 
 const Aqua: NextPage = () =>
@@ -16,6 +18,7 @@ const Aqua: NextPage = () =>
         <div className="container flex flex-col lg:pl-52 lg:pr-10 py-4 mx-auto space-y-6 md:h-128 md:py-44 md:flex-row md:items-center md:space-x-6">
             <div className="flex items-center justify-center w-full h-96 md:w-1/2">
                 <div className="object-cover  max-w-2xl rounded-md">
+                    <div>
                     <Carousel showArrows={true} showThumbs={true}>
                         {
                             images.map((image, index) => (
@@ -25,6 +28,7 @@ const Aqua: NextPage = () =>
                             ))
                         }
                     </Carousel>
+                    </div>
                 </div>
             </div>
             <div className="flex flex-col items-center w-full md:flex-row md:w-1/2">
