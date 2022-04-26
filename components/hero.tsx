@@ -12,14 +12,15 @@ const Hero: NextPage = () =>
 
 
 <div className="container flex flex-col px-6 py-20 mx-auto space-y-6 md:h-128 md:py-40 sm:py-10 md:flex-row md:items-center md:space-x-6">
-    <div className="flex flex-col items-center w-full md:flex-row md:w-1/2">
+    
+	<div className="flex flex-col items-center w-full md:flex-row md:w-1/2">
         <div className="flex justify-center order-2 mt-6 md:mt-0 md:space-y-3 md:flex-col">
 
         </div>
 
         <div className="max-w-lg md:mx-12 md:order-2">
-            <h1 className="text-5xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500">Meet Quality and Affordability.</h1>
-            <p className="mt-4 text-gray-600 dark:text-gray-300">Beautifully hand-crafted products from our home to yours.</p>
+            <h1 className="text-5xl pt-10 font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500">Meet Quality and Affordability.</h1>
+            <p className="mt-4 text-black-600 ">Beautifully hand-crafted products from our home to yours.</p>
             <div className="mt-6">
 			<button className="p-2 pl-5 pr-5 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-yellow-300">Buy Now</button>
             </div>

@@ -18,18 +18,17 @@ const Footer: NextPage = () =>
             </div>
             <nav className="col-span-1 md:col-span-1 lg:col-span-2">
                 <p className="mb-3 text-xs font-semibold tracking-wider text-gray-400 uppercase">Product</p>
-                <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">Features</a>
+                <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">Warranty</a>
 
 
-                <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">FAQs</a>
-                <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">Pricing</a>
+          
             </nav>
             <nav className="col-span-1 md:col-span-1 lg:col-span-2">
                 <p className="mb-3 text-xs font-semibold tracking-wider text-gray-400 uppercase">About</p>
                 <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">Our Story</a>
-                <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">Company</a>
+                {/* <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">Company</a> */}
 
-                <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">Blog</a>
+                {/* <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">Blog</a> */}
             </nav>
             <nav className="col-span-2 md:col-span-1 lg:col-span-2">
                 <p className="mb-3 text-xs font-semibold tracking-wider text-gray-400 uppercase">Contact</p>
@@ -47,8 +46,8 @@ const Footer: NextPage = () =>
         <div className="flex flex-col items-start justify-between pt-10 mt-10 border-t border-gray-100 md:flex-row md:items-center">
             <p className="mb-6 text-sm text-left text-gray-600 md:mb-0">© Copyright 2021 IVMET. All Rights Reserved.</p>
             <div className="flex items-start justify-start space-x-6 md:items-center md:justify-center">
-                <a href="#_" className="text-sm text-gray-600 transition hover:text-primary">Terms</a>
-                <a href="#_" className="text-sm text-gray-600 transition hover:text-primary">Privacy</a>
+                {/* <a href="#_" className="text-sm text-gray-600 transition hover:text-primary">Terms</a>
+                <a href="#_" className="text-sm text-gray-600 transition hover:text-primary">Privacy</a> */}
             </div>
         </div>
     </div>

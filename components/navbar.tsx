@@ -13,7 +13,7 @@ const Navbar: NextPage = () => {
           <header className={styles2.header}>
               <nav className={styles.navbar}>
                   <Link href='/'>
-                   <img src="/logo.png" alt="" />
+                   <img className={styles.logo} src="/logo.png" alt="" />
                   </Link>
               <ul className={isOpen === false ? 
                       styles.navmenu : styles.navmenu +' '+ styles.active}>
@@ -31,13 +31,13 @@ const Navbar: NextPage = () => {
                                   onClick={openMenu}>Products</a>
                       </Link>
                   </li>
-                  <li className={styles.navitem}>
+                  {/* <li className={styles.navitem}>
                       <Link href='/blog'>
                        <a className={isOpen === false ? 
                                   styles.navlink : styles.navlink+' '+styles.active}
                                   onClick={openMenu}>Blog</a>
                       </Link>
-                  </li>
+                  </li> */}
                   <li className={styles.navitem}>
                       <Link href='/about'>
                        <a className={isOpen === false ? 

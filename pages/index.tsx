@@ -59,7 +59,7 @@ const Home: NextPage = () => {
         <About />
         <Features />
         
-        <Newsletter />
+        {/* <Newsletter /> */}
         <Footer />
       </div>
 
