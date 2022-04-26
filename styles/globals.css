@@ -76,6 +76,15 @@ a {
    font-size: 2rem;
  }
 
+ .inner-carousel {
+  display: flex;
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+}
+
 
 
   .control-dots .dot:nth-child(1) {
