@@ -4,7 +4,7 @@ import Navbar from "../components/navbar"
 import Image from 'next/image';
 import { Carousel } from 'react-responsive-carousel';
 import Link from 'next/link';
-import images from '../components/lunchbag';
+import images from '../components/lunchbagMini';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Lunchbag: NextPage = () => 
@@ -14,7 +14,7 @@ const Lunchbag: NextPage = () =>
 <div className="container flex flex-col lg:pl-52 lg:pr-10 py-4 mx-auto space-y-6 md:h-128 md:py-44 md:flex-row md:items-center md:space-x-6">
             <div className="flex items-center justify-center w-full h-96 md:w-1/2">
                 <div className="object-cover  max-w-2xl rounded-md">
-                    <Carousel showArrows={true} showThumbs={true}>
+                    <Carousel showArrows={true} showThumbs={true} showIndicators={false} swipeable={true}>
                         {
                             images.map((image, index) => (
                                 <div key={index}>

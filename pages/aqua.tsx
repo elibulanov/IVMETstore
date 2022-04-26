@@ -19,7 +19,7 @@ const Aqua: NextPage = () =>
             <div className="flex items-center justify-center w-full h-96 md:w-1/2">
                 <div className="object-cover  max-w-2xl rounded-md">
                     <div>
-                    <Carousel showArrows={true} showThumbs={true}>
+                    <Carousel showArrows={true} showThumbs={true} infiniteLoop={true} swipeable={true}>
                         {
                             images.map((image, index) => (
                                 <div key={index}>

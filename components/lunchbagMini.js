@@ -1,8 +1,8 @@
-import image1 from '../images/bottles/blackOpal.png';
-import image2 from '../images/bottles/coffeeBrown.png';
-import image3 from '../images/bottles/rubyRed.png';
-import image4 from '../images/bottles/silver.png';
-import image5 from '../images/bottles/turquoise.png';
+import image1 from '../images/lunchbag.jpg';
+import image2 from '../images/products/bag.jpg';
+import image3 from '../images/products/thermosMini.jpg';
+// import image4 from '../images/products/';
+// import image5 from '../images/products/';
 
 
-export default [image1, image2, image3, image4, image5];
+export default [image1, image2, image3];
