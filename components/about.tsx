@@ -18,8 +18,8 @@ export default function About() {
               <div className="md:7/12 lg:w-6/12 text-center">
                 <h1 className="text-5xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500">What is IVMET?</h1>
 
-                <p className="mt-4 text-gray-600 text-left"> We are a family business that creates durable, yet affordable lifestyle products. 
-                We have a collection of high quality products that we sell on amazon with very good customer reviews and we believe that our product can be a great addition to your life.
+                <p className="mt-4 text-gray-600 text-left"> We create durable, yet affordable lifestyle products. 
+                We have a collection of high quality products that we sell on amazon with very good customer reviews and we believe that our product can be a great addition to your home and office goods.
                 
                  </p>
               </div>
