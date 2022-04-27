@@ -14,7 +14,7 @@ const Products: NextPage = () =>
             <h2 className=" border-b-2 text-2xl px-3 md:px-4 py-12 flex flex-col justify-center items-center">
                 About Us
             </h2>
-            <div className="py-16 px-60">
+            <div className="py-16 lg:px-60 sm:px-10">
                 <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
                     <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-60">
                         <div className="md:5/12 lg:w-5/12">
