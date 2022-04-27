@@ -45,21 +45,20 @@ const Lunchbag: NextPage = () =>
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 text-indigo-500" viewBox="0 0 24 24">
                             <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
                         </svg>
-                        <span className="text-gray-600 ml-3">20 Reviews</span>
+                        <span className="text-gray-600 ml-3">135 Reviews</span>
                     </span>
-                    <p className="mt-4 text-gray-600 dark:text-gray-300">Durable Bag cooler is functional and easy to clean. Front pocket for utensils and side mesh pocket to hold beverages. Detachable handle buckle to tie it to any backpack or suitcase makes it convenient for travel, office, school or camping </p>
+                    <p className="mt-4 text-gray-600 dark:text-gray-300">Lunch Bag set includes the most essential items for lunch on the go that allows to have healthy and quality meals wherever you are. </p>
                     <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
                         
 
                     </div>
                     <div className="flex">
-                        <span className="title-font font-medium text-2xl text-gray-900">$45.99</span>
+                        <span className="title-font font-medium text-2xl text-gray-900">$33.97</span>
+                        <Link href="https://www.amazon.com/IVMET-3-Piece-Insulated-Stainless-Outdoors/dp/B086S46JWS">
                         <button className="flex mr-auto ml-5 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Buy</button>
-                        <button className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
-                            <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
-                                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
-                            </svg>
-                        </button>
+                        </Link>
+                        
+                        
                     </div>
                 </div>
             </div>

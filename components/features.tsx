@@ -26,8 +26,7 @@ export default function Features() {
             <GiCheckMark/>
             </div>
             <p className="text-sm text-darkGrayishBlue">
-              "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus quam aut ut error labore. Voluptas alias, obcaecati vero eum aliquid
-               eius eaque porro laboriosam earum tempora soluta minus dolore dicta."
+              Our products come with a lifetime warranty. If our products dont meet your needs, it may be returned to Amazon within 30 days, beyond 30 days simply email us at "service@ivmet.com" and we will be glad to help you.
             </p>
           </div>
           <div
@@ -37,8 +36,7 @@ export default function Features() {
             <GiWaterRecycling/>
             </div>
             <p className="text-sm text-darkGrayishBlue">
-              “Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus quam aut ut error labore. Voluptas alias, obcaecati vero eum aliquid
-               eius eaque porro laboriosam earum tempora soluta minus dolore dicta.”
+              Affordable, Sustainable and Reusable. Our goal is to create product that reduce waste. A good Stainless-Steel insulated water bottle sure holds temperature better then a plastic one.
             </p>
           </div>
           <div
@@ -48,8 +46,7 @@ export default function Features() {
             <ImLeaf/>
             </div>
             <p className="text-sm text-darkGrayishBlue">
-              “Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus quam aut ut error labore. Voluptas alias, obcaecati vero eum aliquid
-               eius eaque porro laboriosam earum tempora soluta minus dolore dicta.”
+              A growing company. We are 100% family owned, and we want to only create things we ourselves use. As a growing company, we want to iterate on every product realeased and improve always. 
             </p>
           </div>
         </div>

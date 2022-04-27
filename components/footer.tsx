@@ -1,4 +1,5 @@
 import { NextPage } from "next";
+import Link from "next/link";
 import {FaInstagram} from 'react-icons/fa'
 import {FaFacebook} from 'react-icons/fa'
 import {FaPinterest} from 'react-icons/fa'
@@ -18,29 +19,47 @@ const Footer: NextPage = () =>
             </div>
             <nav className="col-span-1 md:col-span-1 lg:col-span-2">
                 <p className="mb-3 text-xs font-semibold tracking-wider text-gray-400 uppercase">Product</p>
+                <Link href="/about">
                 <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">Warranty</a>
+                </Link>
+                
 
 
           
             </nav>
             <nav className="col-span-1 md:col-span-1 lg:col-span-2">
                 <p className="mb-3 text-xs font-semibold tracking-wider text-gray-400 uppercase">About</p>
+                <Link href="/about">
                 <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">Our Story</a>
+               </Link >
                 {/* <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">Company</a> */}
 
                 {/* <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">Blog</a> */}
             </nav>
             <nav className="col-span-2 md:col-span-1 lg:col-span-2">
                 <p className="mb-3 text-xs font-semibold tracking-wider text-gray-400 uppercase">Contact</p>
+                <Link href="/about">
                 <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">Advertising</a>
+                </Link>
+                <Link href="/about">
                 <a href="#" className="flex mb-3 text-sm font-medium text-gray-500 transition hover:text-gray-700 md:mb-2 hover:text-primary">Business</a>
-
+                </Link>
             </nav>
             <div className="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start ">
-                <FaInstagram/>
-                <FaFacebook/>
-                <FaPinterest/>
-                <FaTwitter/>
+                <Link href="https://www.instagram.com/ivmet_brands/">
+                    <FaInstagram/>
+                </Link>
+
+                <Link href="https://www.facebook.com/IVMETbrands/">
+                    <FaFacebook/>
+                </Link>
+                
+                <Link href="https://www.pinterest.com/ivmetcompany/_created/">
+                    <FaPinterest/>
+                </Link>
+                
+                
+                {/* <FaTwitter/> */}
             </div>
         </div>
         <div className="flex flex-col items-start justify-between pt-10 mt-10 border-t border-gray-100 md:flex-row md:items-center">
