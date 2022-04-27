@@ -52,6 +52,7 @@ const Home: NextPage = () => {
             <title>IVMET</title>
             <meta name="description" content="IVMET brands" />
             <link rel="icon" href="/favicon.ico" />
+            <script defer data-domain="ivmet-store.vercel.app" src="https://plausible.io/js/plausible.js"></script>
           </Head>
           <Navbar />
           <Hero />
