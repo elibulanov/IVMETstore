@@ -19,7 +19,7 @@ export default function About() {
                 <h1 className="text-5xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500">What is IVMET?</h1>
 
                 <p className="mt-4 text-gray-600 text-left"> We create durable, yet affordable lifestyle products. 
-                We have a collection of high quality products that we sell on amazon with very good customer reviews and we believe that our product can be a great addition to your home and office goods.
+                We have a collection of high quality products that we sell on amazon with very good customer reviews and we believe that our product can be a great addition to your home or office.
                 
                  </p>
               </div>
