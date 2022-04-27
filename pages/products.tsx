@@ -23,7 +23,7 @@ const Products: NextPage = () =>
                             AQUA Bottles
                         </h3>
                         <p className="mt-1 text-lg font-medium text-gray-900">
-                            $25
+                            $24
                         </p>
                     </a>
                     <a href="#" className="group">
@@ -36,7 +36,7 @@ const Products: NextPage = () =>
                             Lunchbag Kit
                         </h3>
                         <p className="mt-1 text-lg font-medium text-gray-900">
-                            $28
+                            $34
                         </p>
                     </a>
                     <a href="#" className="group">
@@ -49,7 +49,7 @@ const Products: NextPage = () =>
                             Lunchbag Mini
                         </h3>
                         <p className="mt-1 text-lg font-medium text-gray-900">
-                            $28
+                            $31
                         </p>
                     </a>
                 </div>
