@@ -19,7 +19,7 @@ const Hero: NextPage = () =>
         </div>
 
         <div className="max-w-lg md:mx-12 md:order-2">
-            <h1 className="text-5xl pt-10 font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500">Meet Quality and Affordability.</h1>
+            <h1 className="text-5xl pt-10 pb-5 font-bold mb-5 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500">Meet Quality and Affordability.</h1>
             <p className="mt-4 text-black-600 ">IVMET is a 100% family owned business that designs and creates
 quality home and office goods from our home to yours. </p>
             <div className="mt-6">
