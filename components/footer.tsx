@@ -12,7 +12,7 @@ const Footer: NextPage = () =>
     <div className="px-8 py-12 mx-auto max-w-7xl">
         <div className="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-20">
             <div className="col-span-3">
-                <a href="#_" className="text-xl font-black leading-none text-gray-900 select-none logo">ivmet</a>
+                <a href="#_" className="text-xl font-black leading-none text-amber-500 select-none logo">ivmet</a>
                 <p className="my-4 text-xs leading-normal text-gray-500">
                     Beautifully hand-crafted products from our home to yours.
                 </p>
