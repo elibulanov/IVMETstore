@@ -24,7 +24,7 @@ const Hero: NextPage = () =>
 quality home and office goods from our home to yours. </p>
             <div className="mt-6">
 				<a href="https://www.amazon.com/stores/IVMET/page/71BFFB9B-D8C8-47A6-9EB7-D125400B28BB?ref_=ast_bln">
-				<button className="p-2 pl-5 pr-5 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-yellow-300">Buy Now</button>
+				<button className="p-2 pl-5 pr-5 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-yellow-300">View on Amazon</button>
 				</a>
 			
             </div>
