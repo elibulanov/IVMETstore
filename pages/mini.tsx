@@ -47,7 +47,7 @@ const Lunchbag: NextPage = () =>
                         </svg>
                         <span className="text-gray-600 ml-3">20 Reviews</span>
                     </span>
-                    <p className="mt-4 text-gray-600">Durable Bag cooler is functional and easy to clean. Front pocket for utensils and side mesh pocket to hold beverages. Detachable handle buckle to tie it to any backpack or suitcase makes it convenient for travel, office, school or camping </p>
+                    <p className="mt-4 text-gray-600">Lunch Bag set includes the most essential items for lunch on the go that allows to have healthy and quality meals wherever you are.</p>
                     <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
                         
 
