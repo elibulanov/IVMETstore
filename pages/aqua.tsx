@@ -53,7 +53,7 @@ const Aqua: NextPage = () =>
                         </svg>
                         <span className="text-gray-600 ml-3">33 Reviews</span>
                     </span>
-                    <p className="mt-4 text-gray-600 dark:text-gray-300">The IVMETaqua set includes two drinking bottles of different sizes (25 oz / 750 ml and 17 oz / 500 ml)
+                    <p className="mt-4 text-gray-600">The IVMETaqua set includes two drinking bottles of different sizes (25 oz / 750 ml and 17 oz / 500 ml)
 Keeps your drinks cold for up to 24 hours, hot for up to 12. </p>
                     <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
                         

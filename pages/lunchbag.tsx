@@ -47,7 +47,7 @@ const Lunchbag: NextPage = () =>
                         </svg>
                         <span className="text-gray-600 ml-3">135 Reviews</span>
                     </span>
-                    <p className="mt-4 text-gray-600 dark:text-gray-300">Lunch Bag set includes the most essential items for lunch on the go that allows to have healthy and quality meals wherever you are. </p>
+                    <p className="mt-4 text-gray-600">Lunch Bag set includes the most essential items for lunch on the go that allows to have healthy and quality meals wherever you are. </p>
                     <div className="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
                         
 
