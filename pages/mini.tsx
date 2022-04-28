@@ -55,7 +55,7 @@ const Lunchbag: NextPage = () =>
                     <div className="flex">
                         <span className="title-font font-medium text-2xl text-gray-900">$30.97</span>
                         <Link href="https://www.amazon.com/IVMET-3-Piece-Insulated-Stainless-Outdoors/dp/B086S2WX6Q">
-                        <button className="flex mr-auto ml-5 text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-amber-600 rounded">Buy</button>
+                        <button className="flex mr-auto ml-5 text-white bg-amber-500 border-0 py-2 px-6 focus:outline-none hover:bg-amber-600 rounded">Buy</button>
                         </Link>
                        
                         
