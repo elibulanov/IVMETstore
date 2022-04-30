@@ -5,7 +5,7 @@ export default class CustomDocument extends Document {
         return <Html>
             <Head>
             <script defer data-domain="ivmet.com" src="https://plausible.io/js/plausible.js"></script>
-            
+               
             </Head>
             <body>
                 <Main />
