@@ -31,13 +31,13 @@ const Navbar: NextPage = () => {
                                   onClick={openMenu}>Products</a>
                       </Link>
                   </li>
-                  {/* <li className={styles.navitem}>
+                  <li className={styles.navitem}>
                       <Link href='/blog'>
                        <a className={isOpen === false ? 
                                   styles.navlink : styles.navlink+' '+styles.active}
                                   onClick={openMenu}>Blog</a>
                       </Link>
-                  </li> */}
+                  </li>
                   <li className={styles.navitem}>
                       <Link href='/about'>
                        <a className={isOpen === false ? 
