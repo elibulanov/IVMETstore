@@ -37,7 +37,7 @@ export default function About() {
               <div className="md:7/12 lg:w-6/12 text-center">
                 <h1 className="text-5xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500">Our Mission</h1>
 
-                <p className="mt-4 text-gray-600 text-left">Our mission is to design and create usefull and durable products that really work. </p>
+                <p className="mt-4 text-gray-600 text-left">Our mission is to design and create usefull and durable products that are affordable, durable and look great, while reducing plastic use and promoting a healthy lifestyle. </p>
               </div>
 
             </div>
