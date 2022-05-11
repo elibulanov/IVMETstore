@@ -23,7 +23,7 @@ const Products: NextPage = () =>
                         <div className="md:7/12 lg:w-6/12">
                             <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">IVMET is a true family business focusing on making products that really work.</h2>
                             <p className="mt-6 text-gray-600">We know what its like to shop big name brands and get products that do not meet that promise.</p>
-                            <p className="mt-4 text-gray-600"> At IVMET we meet quality and affordability, selling only products we ourselves use. As a growing buisiness,
+                            <p className="mt-4 text-gray-600"> At IVMET we meet quality and affordability, selling only products we ourselves use. As a growing business,
                                 we focus on improving with every iteration of our product. We listen to our customers and want to only provide the best. Whether its for the home or office, a gift for a loved one or for your employees, we thank you for choosing us. </p>
                         </div>
                     </div>
