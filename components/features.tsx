@@ -26,7 +26,7 @@ export default function Features() {
             <GiCheckMark/>
             </div>
             <p className="text-sm text-darkGrayishBlue">
-              Our products come with a lifetime warranty. If our products dont meet your needs, it may be returned to Amazon within 30 days, beyond 30 days simply email us at "service@ivmet.com" and we will be glad to help you.
+              Our products come with a lifetime warranty. If our products don't meet your needs, it may be returned to Amazon within 30 days, beyond 30 days simply email us at "service@ivmet.com" and we will be glad to help you.
             </p>
           </div>
           <div
@@ -46,7 +46,7 @@ export default function Features() {
             <ImLeaf/>
             </div>
             <p className="text-sm text-darkGrayishBlue">
-              A growing company. We are 100% family owned, and we want to only create things we ourselves use. As a growing company, we want to iterate on every product realeased and improve always. 
+              A growing company. We are 100% family owned, and we want to only create things we ourselves use. As a growing company, we want to iterate on every product released and improve always. 
             </p>
           </div>
         </div>
