@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lato:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Lato:wght@00&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@400;700&family=Lato:wght@700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -17,7 +18,7 @@ body {
 }
 
 .cursive {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Caveat', cursive;
   color: #646464;
 }
 

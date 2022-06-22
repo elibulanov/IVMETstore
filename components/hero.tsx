@@ -20,7 +20,7 @@ const Hero: NextPage = () =>
 
         <div className="max-w-lg md:mx-12 md:order-2">
             <h1 className="text-5xl pt-10 pb-5 font-bold mb-5 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500">Meet Quality and Affordability.</h1>
-            <p className="mt-4 text-5xl font-thin cursive">By purchasing our product, you are helping our small business, thank you for your support! 🧡</p>
+            <p className="mt-4 text-4xl font-thin cursive">By purchasing our product, you are helping our family business, thank you for your support! 🧡</p>
             <div className="mt-6">
 				<a href="https://www.amazon.com/stores/IVMET/page/71BFFB9B-D8C8-47A6-9EB7-D125400B28BB?ref_=ast_bln">
 				<button className="p-2 pl-5 pr-5 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-yellow-300">View on Amazon</button>
