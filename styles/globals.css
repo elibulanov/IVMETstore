@@ -19,7 +19,7 @@ body {
 
 .cursive {
   font-family: 'Caveat', cursive;
-  color: #646464;
+  color: #000000;
 }
 
 a {
@@ -66,7 +66,7 @@ p {
 
 
 .bg-header {
-  background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.014), rgba(0, 0, 0, 0.034)), url("/set.png");
+  background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.315), rgba(0, 0, 0, 0.134)), url("/set.png");
   background-attachment: fixed;
   height: 100vh;
   /* Center and scale the image nicely */
@@ -81,7 +81,7 @@ p {
 and (orientation: portrait) {
   .bg-header {
     background-attachment: fixed;
-    background-image: url("/set.png");
+    background-image: linear-gradient(0deg, rgba(10, 10, 10, 0.315), rgba(0, 0, 0, 0.134)), url("/set.png");
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
