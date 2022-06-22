@@ -13,7 +13,7 @@ const Footer: NextPage = () =>
         <div className="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-20">
             <div className="col-span-3">
                 <a href="#_" className="text-xl font-black leading-none text-amber-500 select-none logo">ivmet</a>
-                <p className="my-4 text-xs leading-normal text-gray-500">
+                <p className="my-4 text-xs leading-normal text-black">
                     Beautifully hand-crafted products from our home to yours.
                 </p>
             </div>
