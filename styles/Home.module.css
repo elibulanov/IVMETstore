@@ -108,6 +108,11 @@
   margin-left: 0.5rem;
 }
 
+.usa {
+  width: 8rem;
+  display: inline;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

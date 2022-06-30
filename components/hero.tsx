@@ -5,33 +5,34 @@ import Image from "next/image";
 import turquoise from '../images/products/blueDouble.png'
 import splash from '../images/splash.jpg'
 import images from './imagesHero'
+import styles from "../styles/Home.module.css";
 
-const Hero: NextPage = () =>
+const Hero: NextPage = () => {
+	return <>
+		<header className="">
 
-<header className="">
 
+			<div className="container flex flex-col px-6 py-20 mx-auto space-y-6 md:h-128 md:py-40 sm:py-10 md:flex-row md:items-center md:space-x-6">
 
-<div className="container flex flex-col px-6 py-20 mx-auto space-y-6 md:h-128 md:py-40 sm:py-10 md:flex-row md:items-center md:space-x-6">
-    
-	<div className="flex flex-col items-center w-full md:flex-row md:w-1/2">
-        <div className="flex justify-center order-2 mt-6 md:mt-0 md:space-y-3 md:flex-col">
+				<div className="flex flex-col items-center w-full md:flex-row md:w-1/2">
+					<div className="flex justify-center order-2 mt-6 md:mt-0 md:space-y-3 md:flex-col">
 
-        </div>
+					</div>
 
-        <div className="max-w-lg md:mx-12 md:order-2">
-            <h1 className="text-5xl pt-10 pb-5 font-bold mb-5 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500">Meet Quality and Affordability.</h1>
-            <p className="mt-4 text-4xl font-thin cursive">By purchasing our product, you are helping our family business, thank you for your support! 🧡</p>
-            <div className="mt-6">
-				<a href="https://www.amazon.com/stores/IVMET/page/71BFFB9B-D8C8-47A6-9EB7-D125400B28BB?ref_=ast_bln">
-				<button className="p-2 pl-5 pr-5 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-yellow-300">View on Amazon</button>
-				</a>
-			
-            </div>
-        </div>
-    </div>
+					<div className="max-w-lg md:mx-12 md:order-2">
+						<h1 className="text-5xl pt-10 pb-5 font-bold mb-5 bg-clip-text text-transparent bg-gradient-to-r from-orange-500 to-yellow-500">Meet Quality and Affordability.</h1>
+						<p className="mt-4 text-4xl font-thin cursive">By purchasing our product, you are helping a small family owned <img className={styles.usa} src="/usafont.png" alt="" /> business, thank you for your support! 🧡</p>
+						<div className="mt-6">
+							<a href="https://www.amazon.com/stores/IVMET/page/71BFFB9B-D8C8-47A6-9EB7-D125400B28BB?ref_=ast_bln">
+								<button className="p-2 pl-5 pr-5 bg-yellow-500 text-gray-100 text-lg rounded-lg focus:border-4 border-yellow-300">View on Amazon</button>
+							</a>
 
-    <div className="flex items-center justify-center w-full h-96 md:w-1/2">
-	{/* <motion.div className="carousel">
+						</div>
+					</div>
+				</div>
+
+				<div className="flex items-center justify-center w-full h-96 md:w-1/2">
+					{/* <motion.div className="carousel">
 					<motion.div className="inner-carousel">
 						{images.map((image, i) => {
 							return (
@@ -51,13 +52,14 @@ const Hero: NextPage = () =>
 						})}
 					</motion.div>
 				</motion.div> */}
-    </div>
-</div>
-</header>
+				</div>
+			</div>
+		</header>
 
 
 
 
 
-
+	</>
+}
 export default Hero;
